@@ -1,0 +1,17 @@
+# Git で管理しないファイルの一覧
+
+# --- Java / Maven（ビルドやテスト実行で自動生成される） ---
+target/
+*.class
+
+# --- IntelliJ IDEA（各自のPC固有の設定） ---
+.idea/
+*.iml
+out/
+
+# --- VS Code ---
+.vscode/
+
+# --- OS固有 ---
+.DS_Store
+Thumbs.db
